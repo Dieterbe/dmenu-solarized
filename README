@@ -1,0 +1,16 @@
+= Dmenu wrappers using solarized colors =
+== What? ==
+Provide 2 dmenu wrappers, for the dark and light "solarized" color palette.
+Needs the color definitions in ${XDG_CONFIG_HOME:-$HOME/.config}/solarized/colors.ini
+(see xdg-solarized project)
+
+Parent project: http://ethanschoonover.com/solarized
+Parent project repository: https://github.com/altercation/solarized/
+This project: https://github.com/Dieterbe/xdg-solarized
+
+== Installation ==
+Put dmenu-light and dmenu-dark somewhere in your $PATH
+
+== Invocation ==
+Call the wrapper just as you would call dmenu.
+All arguments and input are passed on.
